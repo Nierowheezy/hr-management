@@ -133,8 +133,8 @@ hr-management
 
 ## 🌐 Deployment
 
-- The application is **deployed on Vercel**.
-- Visit the live demo: [Live Link](https://your-deployment-url.vercel.app/)
+- The application is **deployed on Netflify**.
+- Visit the live demo: [Live Link](https://hr-managr.netlify.app/dashboard)
 
 ---
 

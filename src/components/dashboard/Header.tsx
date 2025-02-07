@@ -19,19 +19,19 @@ const Header = () => {
         </div>
         <div className="flex items-center gap-4">
           <button className="relative">
-            <Bell size={20} className="text-gray-600" />
+            <Bell size={20} className="text-gray-600 cursor-pointer" />
             <span className="absolute -top-1 -right-1 w-4 h-4 bg-red-500 text-white text-xs rounded-full flex items-center justify-center">
               5
             </span>
           </button>
           <button>
-            <Moon size={20} className="text-gray-600" />
+            <Moon size={20} className="text-gray-600 cursor-pointer" />
           </button>
           <div className="flex items-center gap-2">
             <img
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Project-To%20Do%201-Fmdoj3wikci7UqtwDloQXd62B2ZUdi.png"
               alt="Profile"
-              className="w-8 h-8 rounded-full"
+              className="w-8 h-8 rounded-full cursor-pointer"
             />
             <span className="font-medium">Masum Khan</span>
           </div>

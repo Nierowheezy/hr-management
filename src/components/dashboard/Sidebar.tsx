@@ -65,7 +65,7 @@ const Sidebar = () => {
               navigate("/login");
             });
           }}
-          className="w-full flex items-center gap-3 px-4 py-2 text-gray-700 hover:bg-gray-200 rounded-lg transition-colors duration-200 ease-in-out"
+          className="w-full flex items-center gap-3 px-4 py-2 text-gray-700 hover:bg-gray-200 rounded-lg transition-colors duration-200 ease-in-out cursor-pointer"
         >
           <LogOut size={20} />
           <span>Logout</span>

@@ -72,7 +72,7 @@ const Project = () => {
         <h1 className="text-2xl font-semibold">Project</h1>
         <button
           onClick={handleAddClick}
-          className="px-4 py-2 bg-[#002E1D] text-white rounded-lg flex items-center gap-2"
+          className="px-4 py-2 bg-[#000000] text-white rounded-lg flex items-center gap-2 cursor-pointer"
         >
           <Plus size={20} />
           Add Tasks
@@ -81,9 +81,9 @@ const Project = () => {
       <div className="flex gap-4 mb-6">
         <button
           onClick={() => setActiveTab("todo")}
-          className={`px-6 py-2 rounded-lg transition-colors ${
+          className={`px-6 py-2 rounded-lg  cursor-pointer transition-colors ${
             activeTab === "todo"
-              ? "bg-[#002E1D] text-white"
+              ? "bg-[#000000] text-white"
               : "text-gray-600 hover:bg-gray-100"
           }`}
         >
@@ -91,9 +91,9 @@ const Project = () => {
         </button>
         <button
           onClick={() => setActiveTab("ongoing")}
-          className={`px-6 py-2 rounded-lg transition-colors ${
+          className={`px-6 py-2 rounded-lg cursor-pointer transition-colors ${
             activeTab === "ongoing"
-              ? "bg-[#002E1D] text-white"
+              ? "bg-[#000000] text-white"
               : "text-gray-600 hover:bg-gray-100"
           }`}
         >
@@ -101,9 +101,9 @@ const Project = () => {
         </button>
         <button
           onClick={() => setActiveTab("complete")}
-          className={`px-6 py-2 rounded-lg transition-colors ${
+          className={`px-6 py-2 rounded-lg cursor-pointer transition-colors ${
             activeTab === "complete"
-              ? "bg-[#002E1D] text-white"
+              ? "bg-[#000000] text-white"
               : "text-gray-600 hover:bg-gray-100"
           }`}
         >
