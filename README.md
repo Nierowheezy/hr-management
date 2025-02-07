@@ -1,7 +1,7 @@
 # HR Management Solution
 
-![HR Management Solution Login](/login.png)
-![HR Management Solution Dashboard](/Project-To-Do.png)
+![HR Management Solution Login](./public/login.png)
+![HR Management Solution Dashboard](./public/Project-To-Do.png)
 
 ## 📌 Project Overview
 
